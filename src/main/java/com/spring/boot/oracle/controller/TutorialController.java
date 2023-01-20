@@ -23,7 +23,8 @@ import com.spring.boot.oracle.repository.TutorialRepository;
 
 
 
-@CrossOrigin(origins = "http://localhost:8081")
+//@CrossOrigin(origins = "http://localhost:8081")
+@CrossOrigin(origins = "https://masteraws.d1q6b3l758iuu2.amplifyapp.com")
 @RestController
 @RequestMapping("/api")
 public class TutorialController {
